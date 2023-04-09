@@ -29,7 +29,7 @@
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
-        </div>
+        </div>        
 
         <div id="navbar_menu" class="navbar-menu">
             <div class="navbar-start">
@@ -76,12 +76,13 @@
             </div>
     </nav>
     <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script src="{{url_for('static', filename='nav_burger.js')}}"></script>
     {% block content %}{% endblock %}
 
     <!-- <footer class="footer">
         <div class="content has-text-centered">
         </div>
-    </footer> -->
+    </footer> -->    
 </body>
 
 </html>
